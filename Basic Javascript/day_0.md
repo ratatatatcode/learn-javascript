@@ -142,7 +142,7 @@ arr[0];
 arr[arr.length - 1];
 ```
 
-**strings are immutable**
+**strings are immutable**<br>
 You can't just change the value of a string with accessing its index, instead you need to reassign new value to it.
 
 ```js
