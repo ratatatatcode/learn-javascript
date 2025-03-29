@@ -28,7 +28,6 @@ A Symbol in JavaScript is a unique and immutable primitive data type used as a k
 ```js
 let sym1 = Symbol("test");
 let sym2 = Symbol("test");
-
 console.log(sym1 == sym2); // false
 ```
 
@@ -124,7 +123,6 @@ const firstStr = "First"
 const secondStr = "Second"
 
 const combinedStr = firstStr + " " + secondStr;
-
 console.log(combinedStr); // Hello World
 
 const str = "Hello " + "World";
